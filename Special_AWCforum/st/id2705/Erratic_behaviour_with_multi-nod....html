@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 	
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Mirrored from /index.php/Special:AWCforum/st/id2705/Erratic_behaviour_with_multi-nod....html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jun 2020 02:49:47 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -1059,7 +1060,8 @@ padding: 2px 5px;
 		                    <tr>
 		                        <td valign="top" class="post_body" height="65" colspan="2">Hi all,<br />
 <br />
-I've tried some calculations with NWCHEM (version 6.5) on a local multi-node cluster and I get some weird results and a lot of abnormal terminations... The following simple calculation should converge in 5 steps.<br />
+I've tried some calculations with NWCHEM (version 6.5) on a local multi-node cluster and I get some weird results and a lot of abnormal terminations...<br>
+The following simple calculation should converge in 5 steps.<br />
 <br />
 
 <pre>
@@ -1127,7 +1129,8 @@ When I run it on a single node, I get the proper convergence (also checked with 
                  5     -764.3916251806  5.31D-06  9.45D-07    191.6
 </pre><br />
 <br />
-When trying multiple nodes, I have convergence issues. Of course for this simple case it does not matter. Larger, more demanding runs that combine SCF and DFT runs just crash... This is an example of an erratic behaviour:<br />
+When trying multiple nodes, I have convergence issues. Of course for this simple case it does not matter.<br>
+Larger, more demanding runs that combine SCF and DFT runs just crash... This is an example of an erratic behaviour:<br />
 <br />
 
 <pre>
@@ -1164,7 +1167,8 @@ When trying multiple nodes, I have convergence issues. Of course for this simple
                 20     -764.3916236235  8.51D-05  8.99D-06    323.1
 </pre><br />
 <br />
-I'm pretty much convinced that it has to do with the way my cluster admins built NWCHEM. I contacted them but they couldn't really help me... The building specs they used are here:<br />
+I'm pretty much convinced that it has to do with the way my cluster admins built NWCHEM.<br>
+I contacted them but they couldn't really help me... The building specs they used are here:<br />
 <br />
 <a target='blank' href="https://github.com/UCL-RITS/rcps-buildscripts/blob/master/nwchem-6.5_install" class="external free">https://github.com/UCL-RITS/rcps-buildscripts/blob/master/nwchem-6.5_install</a><br />
 <br />
@@ -1213,3 +1217,5 @@ Orestis
 	</tr>
 </table>
 <br /><br />      <br />
+</body> 
+</html> 

@@ -2,6 +2,7 @@
 rm -f newa newb
 gsed -e '/awc.js/d' \
 -e '/indexb492.php/d' \
+    -e '/172.26.64.155/d'  \
     -e '/favicon.html/d'  \
     -e '/shared3905.css/d' \
     -e '/gumax_main3905.css/d' \

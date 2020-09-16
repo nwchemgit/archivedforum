@@ -1057,10 +1057,13 @@ padding: 2px 5px;
 		                                     
 		                    <tr>
 		                        <td valign="top" class="post_body" height="65" colspan="2">Dear All,<br />
-I am running NWChem.6.5 on Mazama Tue Feb 21 03:35:44 CST 2012 on hssbld4 by bwdev lsb-cray-mazama-6.0.0<br />
-SUSE Linux Enterprise Server 11 (x86_64)<br />
-					  VERSION = 11. While running the CPHF module for analytic frequency calculation, the run terminates without any error while calculation of hessian 2e 2nd derivative step.
-					  <br>However, I can successfully compute the frequencies with same input in workstations of arch x86_64; Ubuntu 12.04.4 LTS ,
+					  I am running NWChem.6.5 on Mazama Tue Feb 21 03:35:44 CST 2012 on
+					  <br>hssbld4 by bwdev lsb-cray-mazama-6.0.0<br />
+					  SUSE Linux Enterprise Server 11 (x86_64) VERSION = 11.
+					  <br>While running the CPHF module for analytic frequency calculation,
+					  <br>the run terminates without any error while calculation of hessian 2e 2nd derivative step.
+					    <br>However, I can successfully compute the frequencies with same input
+					    <br>in workstations of arch x86_64; Ubuntu 12.04.4 LTS ,
 					    <br> Precise Pangolin after allocating 5000 mb total memory. I would be grateful if someone can suggest where things are getting wrong.
 					   <br>Thanks in advance.
 </td>
@@ -1262,7 +1265,9 @@ Would you be so kind to help me out in where things are going wrong? Thanks.
 		                    </tr>
 		                                     
 		                    <tr>
-		                        <td valign="top" class="post_body" height="65" colspan="2">Since you got the 2GB input killed by the OOM ([NID 00051] 2014-11-12 14:39:25 Apid 109986: OOM killer terminated this process.), increasing the memory to 5GB is going only to make things worse. Could you please post your input file?<br />
+		                      <td valign="top" class="post_body" height="65" colspan="2">Since you got the 2GB input killed by the OOM ([NID 00051] 2014-11-12 14:39:25 Apid 109986: OOM killer terminated this process.),
+					<br> increasing the memory to 5GB is going only to make things worse.
+					<br>Could you please post your input file?<br />. 
 Thanks, Edo
 </td>
 		                    </tr>
@@ -1316,7 +1321,8 @@ Thanks, Edo
 		                    </tr>
 		                                     
 		                    <tr>
-		                        <td valign="top" class="post_body" height="65" colspan="2">Thanks for the reply. Please find attached herewith the input files. The first file is parent nw input followed by restart file to compute frequencies analytically.<br />
+		                      <td valign="top" class="post_body" height="65" colspan="2">Thanks for the reply. Please find attached herewith the input files.
+					<br>The first file is parent nw input followed by restart file to compute frequencies analytically.<br />
 
 <hr /><br />
 <br />
@@ -1484,7 +1490,10 @@ ecce_print ecce.out
 		                    </tr>
 		                                     
 		                    <tr>
-		                        <td valign="top" class="post_body" height="65" colspan="2">I am using 32 cores on cray system using aprun -n 32 -N 32 ~/Nwchem-6.5/bin/LINUX64/nwchem nwc.res.nw &gt;nwc.freq.out, whreas in the Ubuntu workstation, I am using 6 processors with ~/openmpi/bin/mpirun -np 6 ~/Nwchem-6.5/bin/LINUX64/nwchem nwc.res.nw &gt;nwc.freq.out script for running NWChem. Thanks.
+		                      <td valign="top" class="post_body" height="65" colspan="2">I am using 32 cores on cray system using aprun -n 32 -N 32 ~/Nwchem-6.5/bin/LINUX64/nwchem nwc.res.nw &gt;nwc.freq.out,
+					<br>whreas in the Ubuntu workstation, I am using 6 processors with
+					  <br> ~/openmpi/bin/mpirun -np 6 ~/Nwchem-6.5/bin/LINUX64/nwchem nwc.res.nw &gt;nwc.freq.out
+					  <br> script for running NWChem. Thanks.
 </td>
 		                    </tr>
 		                                

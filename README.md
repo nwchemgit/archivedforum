@@ -1,2 +1,2 @@
 # archivedforum
-Archived forum postings from http://www.nwchem-sw.org
+Archived forum postings from the old NWChem website
